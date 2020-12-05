@@ -16,5 +16,9 @@ app.get('/register', (req,res) =>{
     res.render('register.ejs');
 });
 
+app.post('/register', (req,res) =>{
+
+});
+
 //listen on this port
 app.listen(3000);
